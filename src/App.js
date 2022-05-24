@@ -10,6 +10,7 @@ import NewsItem from './pages/NewsItem'
 import Login from './pages/login'
 import Encyclopedia from './pages/encyclopedia'
 import EncyclopediaItem from "./pages/EncyclopediaItem";
+import CompareTrains from "./pages/CompareTrains";
 
 import i18n from "i18next";
 import { withNamespaces } from 'react-i18next';
@@ -28,6 +29,7 @@ const App = () => {
                         <Link to="/about">about</Link> |{" "}
                         <Link to="/login">login</Link> |{" "}
                         <Link to="/encyclopedia">encyclopedia</Link> |{" "}
+                        <Link to="/pociagi-towarowe">ciuf ciuf</Link> |{" "}
                         <Link to="/news/">news</Link>
                     </div>
                 </div>
@@ -44,6 +46,7 @@ const App = () => {
                         <Route path="/login" element={<Login />} /> 
                         <Route path="/encyclopedia" element={<Encyclopedia />} /> 
                         <Route path="/encyclopedia/:id" element={<EncyclopediaItem />} /> 
+                        <Route path="/pociagi-towarowe" element={<CompareTrains prop="cargo" />} /> 
                     </Routes>
                 </div>
             </div>
