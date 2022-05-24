@@ -43,7 +43,7 @@ const News = () => {
     const lastPostIndex = currentPage * postsPerPage;
     const firstPostIndex = lastPostIndex - postsPerPage;
     const currentPosts = posts.slice(firstPostIndex, lastPostIndex);
-    console.log(firstPostIndex,lastPostIndex,currentPosts,posts.length);
+    // console.log(firstPostIndex,lastPostIndex,currentPosts,posts.length);
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber)
 

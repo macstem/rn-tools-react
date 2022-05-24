@@ -8,6 +8,8 @@ import Home from './pages/home'
 import News from './pages/news'
 import NewsItem from './pages/NewsItem'
 import Login from './pages/login'
+import Encyclopedia from './pages/encyclopedia'
+import EncyclopediaItem from "./pages/EncyclopediaItem";
 
 import i18n from "i18next";
 import { withNamespaces } from 'react-i18next';
@@ -25,6 +27,7 @@ const App = () => {
                         <Link to="/">home</Link> |{" "}
                         <Link to="/about">about</Link> |{" "}
                         <Link to="/login">login</Link> |{" "}
+                        <Link to="/encyclopedia">encyclopedia</Link> |{" "}
                         <Link to="/news/">news</Link>
                     </div>
                 </div>
@@ -39,6 +42,8 @@ const App = () => {
                         <Route path="/news" element={<News />} />
                         <Route path="/news/:id" element={<NewsItem />} />
                         <Route path="/login" element={<Login />} /> 
+                        <Route path="/encyclopedia" element={<Encyclopedia />} /> 
+                        <Route path="/encyclopedia/:id" element={<EncyclopediaItem />} /> 
                     </Routes>
                 </div>
             </div>
