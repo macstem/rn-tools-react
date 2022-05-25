@@ -2,6 +2,7 @@ export const TRANSLATIONS_EN = {
     news: "News",
     welcome: "Welcome to the tutorial",
     no_lang_news: "No news found in this language.",
+    era: "era",
     trains: {
         cargo: {
             swallow: "Swallow",
@@ -70,5 +71,9 @@ export const TRANSLATIONS_EN = {
             venus: "Venus",
             aurora: "Aurora"
         }
+    },
+    compare: {
+        add_train: "Add train",
+        condition: "Condition"
     }
 };

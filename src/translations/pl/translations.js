@@ -2,6 +2,7 @@ export const TRANSLATIONS_PL = {
     news: "Aktualności",
     no_lang_news: "Brak aktualności w tym języku.",
     welcome: "Witaj!",
+    era: "era",
     trains: {
         cargo: {
             swallow: "Jaskółka",
@@ -70,5 +71,9 @@ export const TRANSLATIONS_PL = {
             venus: "Wenus",
             aurora: "Aurora"
         }
+    },
+    compare: {
+        add_train: "Dodaj pociąg",
+        condition: "Kondycja"
     }
 };

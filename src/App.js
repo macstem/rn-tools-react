@@ -10,7 +10,7 @@ import NewsItem from './pages/NewsItem'
 import Login from './pages/login'
 import Encyclopedia from './pages/encyclopedia'
 import EncyclopediaItem from "./pages/EncyclopediaItem";
-import CompareTrains from "./pages/CompareTrains";
+import CompareTrains from "./pages/compareTrains";
 
 import i18n from "i18next";
 import { withNamespaces } from 'react-i18next';

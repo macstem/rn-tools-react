@@ -12,7 +12,8 @@ module.exports = {
         publicPath: '/',
     },
     devServer: {
-        historyApiFallback: true
+        historyApiFallback: true,
+        watchFiles: ['src/**/*.php', 'public/**/*'],
     },
     module: {
         rules: [
