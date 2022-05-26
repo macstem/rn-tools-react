@@ -36,9 +36,7 @@ const CompareTrains = (props) => {
     
     const deleteItemHandler = trainId => {
         setTrainList(prevTrainList => {
-            console.log(prevTrainList, trainId);
             const updatedTrainList = prevTrainList.filter(filteredTrain => filteredTrain.id !== trainId);
-            console.log(updatedTrainList)
             return updatedTrainList;
         });
     };

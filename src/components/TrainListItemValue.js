@@ -1,10 +1,10 @@
 import React from "react";
 
-const TrainListItemValue = () => {
+const TrainListItemValue = (props) => {
     return (       
-        <div className="compare-trains__item-stats-total-tractive_force">
+        <div className={"compare-trains__item-stats-total-"+props.type}>
             <i></i>
-            <span>2</span>
+            <span>{props.value}</span>
         </div>
     )
 }

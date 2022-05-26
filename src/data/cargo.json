@@ -6,14 +6,16 @@
                 "label":"trains.cargo.swallow",
                 "value":101,
                 "name":"swallow",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50                    
+                },
                 "slots":1,
                 "era": 1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -31,14 +33,15 @@
                 "label":"trains.cargo.raven",
                 "value":102,
                 "name":"raven",
-                "tractive_force":3,
-                "reliability":40,
-                "acceleration":5,
-                "speed":60,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":3,
+                    "reliability":40,
+                    "acceleration":5,
+                    "speed":60
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -57,14 +60,15 @@
                 "label":"trains.cargo.rhinoceros",
                 "value":103,
                 "name":"rhinoceros",
-                "tractive_force":2,
-                "reliability":30,
-                "acceleration":10,
-                "speed":110,
-                "type":"goods",
+                "stats": {                
+                    "tractiveForce":2,
+                    "reliability":30,
+                    "acceleration":10,
+                    "speed":110
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -83,14 +87,15 @@
                 "label":"trains.cargo.donkey",
                 "value":104,
                 "name":"donkey",
-                "tractive_force":4,
-                "reliability":20,
-                "acceleration":2,
-                "speed":50,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":4,
+                    "reliability":20,
+                    "acceleration":2,
+                    "speed":50
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1,
                         1
                     ],
@@ -110,14 +115,15 @@
                 "label":"trains.cargo.falcon",
                 "value":105,
                 "name":"falcon",
-                "tractive_force":3,
-                "reliability":50,
-                "acceleration":1,
-                "speed":140,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":3,
+                    "reliability":50,
+                    "acceleration":1,
+                    "speed":140
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -137,14 +143,15 @@
                 "label":"trains.cargo.mole",
                 "value":106,
                 "name":"mole",
-                "tractive_force":4,
-                "reliability":70,
-                "acceleration":3,
-                "speed":70,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":4,
+                    "reliability":70,
+                    "acceleration":3,
+                    "speed":70
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -163,14 +170,15 @@
                 "label":"trains.cargo.red_kite",
                 "value":107,
                 "name":"red_kite",
-                "tractive_force":5,
-                "reliability":95,
-                "acceleration":6,
-                "speed":95,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":5,
+                    "reliability":95,
+                    "acceleration":6,
+                    "speed":95
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -189,14 +197,15 @@
                 "label":"trains.cargo.primus",
                 "value":108,
                 "name":"primus",
-                "tractive_force":5,
-                "reliability":95,
-                "acceleration":13,
-                "speed":90,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":5,
+                    "reliability":95,
+                    "acceleration":13,
+                    "speed":90
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         
                     ],
                     "reliability":[
@@ -220,14 +229,15 @@
                 "label":"trains.cargo.bat",
                 "value":201,
                 "name":"bat",
-                "tractive_force":4,
-                "reliability":50,
-                "acceleration":1,
-                "speed":150,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":4,
+                    "reliability":50,
+                    "acceleration":1,
+                    "speed":150
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -247,14 +257,15 @@
                 "label":"trains.cargo.panther",
                 "value":202,
                 "name":"panther",
-                "tractive_force":4,
-                "reliability":70,
-                "acceleration":3,
-                "speed":90,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":4,
+                    "reliability":70,
+                    "acceleration":3,
+                    "speed":90
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -273,14 +284,15 @@
                 "label":"trains.cargo.black_bear",
                 "value":203,
                 "name":"black_bear",
-                "tractive_force":6,
-                "reliability":40,
-                "acceleration":15,
-                "speed":70,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":6,
+                    "reliability":40,
+                    "acceleration":15,
+                    "speed":70
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         
                     ],
                     "reliability":[
@@ -301,14 +313,15 @@
                 "label":"trains.cargo.lynx",
                 "value":204,
                 "name":"lynx",
-                "tractive_force":3,
-                "reliability":35,
-                "acceleration":10,
-                "speed":130,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":3,
+                    "reliability":35,
+                    "acceleration":10,
+                    "speed":130
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1,
                         1
                     ],
@@ -329,14 +342,15 @@
                 "label":"trains.cargo.boar",
                 "value":205,
                 "name":"boar",
-                "tractive_force":5,
-                "reliability":50,
-                "acceleration":6,
-                "speed":95,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":5,
+                    "reliability":50,
+                    "acceleration":6,
+                    "speed":95
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -356,14 +370,15 @@
                 "label":"trains.cargo.elephant",
                 "value":206,
                 "name":"elephant",
-                "tractive_force":9,
-                "reliability":30,
-                "acceleration":1,
-                "speed":50,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":9,
+                    "reliability":30,
+                    "acceleration":1,
+                    "speed":50
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1,
                         1
                     ],
@@ -384,14 +399,15 @@
                 "label":"trains.cargo.bull",
                 "value":207,
                 "name":"bull",
-                "tractive_force":6,
-                "reliability":90,
-                "acceleration":5,
-                "speed":120,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":6,
+                    "reliability":90,
+                    "acceleration":5,
+                    "speed":120
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -409,14 +425,15 @@
             {
                 "label":"trains.cargo.primus",
                 "value":208,
-                "tractive_force":6,
-                "reliability":95,
-                "acceleration":13,
-                "speed":115,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":6,
+                    "reliability":95,
+                    "acceleration":13,
+                    "speed":115
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         
                     ],
                     "reliability":[
@@ -440,14 +457,15 @@
                 "label":"trains.cargo.odin",
                 "value":301,
                 "name":"odin",
-                "tractive_force":4,
-                "reliability":60,
-                "acceleration":5,
-                "speed":120,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":4,
+                    "reliability":60,
+                    "acceleration":5,
+                    "speed":120
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1,
                         1
                     ],
@@ -468,14 +486,15 @@
                 "label":"trains.cargo.dionysos",
                 "value":302,
                 "name":"dionysos",
-                "tractive_force":4,
-                "reliability":50,
-                "acceleration":12,
-                "speed":170,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":4,
+                    "reliability":50,
+                    "acceleration":12,
+                    "speed":170
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -496,14 +515,15 @@
                 "label":"trains.cargo.herakles",
                 "value":303,
                 "name":"herakles",
-                "tractive_force":9,
-                "reliability":30,
-                "acceleration":1,
-                "speed":75,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":9,
+                    "reliability":30,
+                    "acceleration":1,
+                    "speed":75
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1,
                         1
                     ],
@@ -525,14 +545,15 @@
                 "label":"trains.cargo.prometheus",
                 "value":304,
                 "name":"prometheus",
-                "tractive_force":7,
-                "reliability":45,
-                "acceleration":16,
-                "speed":80,
-                "type":"goods",
+                "stats": {
+                    "tractiveForce":7,
+                    "reliability":45,
+                    "acceleration":16,
+                    "speed":80
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -553,14 +574,15 @@
                 "label":"trains.cargo.osiris",
                 "value":305,
                 "name":"osiris",
-                "tractive_force":6,
-                "reliability":80,
-                "acceleration":4,
-                "speed":100,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":6,
+                    "reliability":80,
+                    "acceleration":4,
+                    "speed":100
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -580,14 +602,15 @@
                 "label":"trains.cargo.morpheus",
                 "value":306,
                 "name":"morpheus",
-                "tractive_force":12,
-                "reliability":50,
-                "acceleration":1,
-                "speed":200,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":12,
+                    "reliability":50,
+                    "acceleration":1,
+                    "speed":200
+                },
                 "slots":2,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         2,
                         2
                     ],
@@ -610,14 +633,15 @@
                 "label":"trains.cargo.isis",
                 "value":307,
                 "name":"isis",
-                "tractive_force":8,
-                "reliability":85,
-                "acceleration":6,
-                "speed":130,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":8,
+                    "reliability":85,
+                    "acceleration":6,
+                    "speed":130
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -636,14 +660,15 @@
                 "label":"trains.cargo.primus",
                 "value":308,
                 "name":"primus",
-                "tractive_force":8,
-                "reliability":95,
-                "acceleration":13,
-                "speed":125,
-                "type":"goods",
+                "stats": {                    
+                    "tractiveForce":8,
+                    "reliability":95,
+                    "acceleration":13,
+                    "speed":125
+                },
                 "slots":1,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         
                     ],
                     "reliability":[
@@ -667,14 +692,16 @@
                 "label":"trains.cargo.apollo",
                 "value":401,
                 "name":"apollo",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -692,14 +719,16 @@
                 "label":"trains.cargo.ares",
                 "value":402,
                 "name":"ares",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -717,14 +746,16 @@
                 "label":"trains.cargo.neptune",
                 "value":403,
                 "name":"neptune",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -742,14 +773,16 @@
                 "label":"trains.cargo.horus",
                 "value":404,
                 "name":"horus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -767,14 +800,16 @@
                 "label":"trains.cargo.thor",
                 "value":405,
                 "name":"thor",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -792,14 +827,16 @@
                 "label":"trains.cargo.poseidon",
                 "value":406,
                 "name":"poseidon",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -817,14 +854,16 @@
                 "label":"trains.cargo.zeus",
                 "value":407,
                 "name":"zeus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -842,14 +881,16 @@
                 "label":"trains.cargo.primus",
                 "value":408,
                 "name":"primus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 4,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -872,14 +913,16 @@
                 "label":"trains.cargo.unicorn",
                 "value":501,
                 "name":"unicorn",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -897,14 +940,16 @@
                 "label":"trains.cargo.medusa",
                 "value":502,
                 "name":"medusa",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -922,14 +967,16 @@
                 "label":"trains.cargo.basilisk",
                 "value":503,
                 "name":"basilisk",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -947,14 +994,16 @@
                 "label":"trains.cargo.satyr",
                 "value":504,
                 "name":"satyr",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -972,14 +1021,16 @@
                 "label":"trains.cargo.leviathan",
                 "value":505,
                 "name":"leviathan",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -997,14 +1048,16 @@
                 "label":"trains.cargo.centaur",
                 "value":506,
                 "name":"centaur",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1022,14 +1075,16 @@
                 "label":"trains.cargo.sphinx",
                 "value":507,
                 "name":"sphinx",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1047,14 +1102,16 @@
                 "label":"trains.cargo.primus",
                 "value":508,
                 "name":"primus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 5,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1077,14 +1134,16 @@
                 "label":"trains.cargo.ogre",
                 "value":601,
                 "name":"ogre",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1102,14 +1161,16 @@
                 "label":"trains.cargo.phoenix",
                 "value":602,
                 "name":"phoenix",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1127,14 +1188,16 @@
                 "label":"trains.cargo.pegasus",
                 "value":603,
                 "name":"pegasus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1152,14 +1215,16 @@
                 "label":"trains.cargo.lindworm",
                 "value":604,
                 "name":"lindworm",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1177,14 +1242,16 @@
                 "label":"trains.cargo.hydra",
                 "value":605,
                 "name":"hydra",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1202,14 +1269,16 @@
                 "label":"trains.cargo.olympus",
                 "value":606,
                 "name":"olympus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1227,14 +1296,16 @@
                 "label":"trains.cargo.valkyrie",
                 "value":607,
                 "name":"valkyrie",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1252,14 +1323,16 @@
                 "label":"trains.cargo.primus",
                 "value":608,
                 "name":"primus",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 6,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
@@ -1282,14 +1355,16 @@
                 "label":"trains.cargo.titan",
                 "value":701,
                 "name":"titan",
-                "tractive_force":2,
-                "reliability":50,
-                "acceleration":14,
-                "speed":50,
+                "stats": {                    
+                    "tractiveForce":2,
+                    "reliability":50,
+                    "acceleration":14,
+                    "speed":50
+                },
                 "slots":1,
                 "era": 7,
                 "upgrades":{
-                    "tractive_force":[
+                    "tractiveForce":[
                         1
                     ],
                     "reliability":[
