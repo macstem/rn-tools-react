@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 import TrainListItemValue from "./TrainListItemValue";
 import TrainListItemUpgrade from "./TrainListItemUpgrade";
@@ -9,6 +9,7 @@ import "../translations/i18n";
 const Train = (props) => {
     const { t } = useTranslation();
     const voucherSpeed = 20;
+    const [upgAll, setUpgAll] = useState(false);
     const [stats, setStats] = useState({
         condition: 100, 
         tractiveForce: props.trainItem.stats.tractiveForce,
@@ -16,14 +17,14 @@ const Train = (props) => {
         acceleration: props.trainItem.stats.acceleration,
         reliability: props.trainItem.stats.reliability
     });
+    const childRef = useRef();
 
     const deleteHandler = () => {
         props.onDelete(props.id);
     };
 
     const upgradeHandler = (value, type, c) => {
-        console.log(c);
-        if(c){
+        if(!c){
             setStats({
                 ...stats, 
                 [type]: props.trainItem.stats[type] += value
@@ -38,6 +39,13 @@ const Train = (props) => {
     }
 
     const upgradeAll = () => {
+        {Object.keys(props.trainItem.upgrades).map((value) => (
+            Object.keys(props.trainItem.upgrades[value]).map((upg) => (() => {
+                stats[value] !== props.trainItem.stats[value] ? setUpgAll(true) : setUpgAll(false)
+            }))
+        ))}
+
+
         setStats({
             ...stats, 
             

@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 
 const TrainListItemUpgrade = (props) => {
-    const [checked, setChecked] = useState(false);
+    const [check, setCheck] = useState(false);
 
     const changeHandler = () => {
-        setChecked(!checked);
-        // props.onUpgrade(props.value, props.type, checked)
+        setCheck(prevCheck => !prevCheck);
+        props.onUpgrade(props.value, props.type, check)
     };
 
     return (       
         <button 
-            className={"compare-trains__item-stats-upgrades-"+props.type+" "+checked}
+            className={"compare-trains__item-stats-upgrades-"+props.type+" "+check}
             onClick={changeHandler}
         >
                 <i></i>
